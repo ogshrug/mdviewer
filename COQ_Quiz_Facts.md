@@ -111,7 +111,16 @@ Facts marked **[doc]** are notes already in your original list; the rest are com
 **Delhi-6 (2009)**
 - **[doc]** Frequently referenced in COQ-style quizzes; directed by Rakeysh Omprakash Mehra, features the "Kala Bandar" urban-legend subplot.
 
-**General note [doc]:** Palme d'Or, Golden Lion (Venice), and Oscar winners are commonly asked — know recent years' winners. Recent films (Dune, an LoTR sequel, Marty Supreme, Hundreds of Beavers, etc.) may be quizzed on specific craft categories (production design, score, cinematography) rather than plot.
+**General note [doc]:** Palme d'Or, Golden Lion (Venice), and Oscar winners are commonly asked — know recent years' winners. Recent films may be quizzed on specific craft categories (production design, score, cinematography) rather than plot.
+- **[doc] Correction/clarification:** the "Odyssey" mentioned in the original list is Christopher Nolan's *The Odyssey* (2026) — not a "LoTR sequel." For its score, composer Ludwig Göransson (a frequent Nolan collaborator, after Tenet and Oppenheimer) built reconstructions of ancient Greek instruments — the **aulos** (double-reed pipe) and the **lyre** — instead of using a traditional orchestra, at Nolan's request. This is distinct from Göransson's Oppenheimer score, which was instead built around a solo violin (played by his wife, Serena Göransson) to represent Oppenheimer's psychology.
+
+**Hitchcock films grouping [doc]**
+- *Vertigo*, *Psycho*, *Dial M for Murder*, and *North by Northwest* are frequently grouped together as core Hitchcock suspense classics — useful for "which of these is NOT a Hitchcock film" style questions.
+- *Dial M for Murder* (1954) was originally shot in 3D; *North by Northwest* (1959) features the famous Mount Rushmore climax and crop-duster chase scene.
+
+**Le Mans / Tour de France [doc]**
+- *Le Mans* (1971) stars Steve McQueen and centers on the real 24 Hours of Le Mans endurance race; also relevant is *Ford v Ferrari* (2019, released as *Le Mans '66* outside the US), about Ford's Le Mans campaign against Ferrari.
+- **Grand Départ** is the name given to the opening stage(s) of the Tour de France — often held outside France in recent years, a common quiz factoid.
 
 ## Music
 
@@ -201,6 +210,12 @@ Facts marked **[doc]** are notes already in your original list; the rest are com
 
 **George Harrison / "The Boys of Dungeon Lane"**
 - **[doc]** Reference ties to George Harrison, his estate Friar Park, and the L24 postcode area, plus the song "We Two" — niche Beatles/Harrison trivia about his home life and lesser-known recordings.
+
+**Jonny Greenwood**
+- **[doc]** Radiohead's lead guitarist, who is also a prolific film composer — best known for scoring Paul Thomas Anderson's films (*There Will Be Blood*, *The Master*, *Phantom Thread*, *Licorice Pizza*), linking the Music and Movies categories.
+
+**Ludwig Göransson**
+- **[doc]** Swedish composer and frequent Christopher Nolan collaborator (Tenet, Oppenheimer, The Odyssey). Won Best Original Score Oscars for both *Black Panther* (2018) and *Oppenheimer* (2023). For *The Odyssey* (2026), he and his team built playable reconstructions of the ancient Greek **aulos** and **lyre** rather than use a conventional orchestra.
 
 ## Literature — Novels
 
@@ -425,14 +440,42 @@ Facts marked **[doc]** are notes already in your original list; the rest are com
 **Godard, Truffaut, Varda, Demy — French New Wave**
 - Jean-Luc Godard (*Breathless*), François Truffaut (*The 400 Blows*), Agnès Varda (*Cléo from 5 to 7*), Jacques Demy (*The Umbrellas of Cherbourg*) — core figures of the French New Wave (late 1950s–60s).
 
-**Ray, Ghatak, Sinha, Kaul, Kashyap, Ali, Basu (Indian directors)**
-- Satyajit Ray: *The Apu Trilogy*, India's most internationally celebrated director.
+**Satyajit Ray — expanded facts [doc]**
+- *The Apu Trilogy* (Pather Panchali, Aparajito, Apur Sansar) is his internationally celebrated debut work.
+- *Days and Nights in the Forest* (Aranyer Din Ratri, 1970) is cited as an influence on Wes Anderson (who has spoken publicly about his admiration for Ray, and even made a documentary tribute).
+- *Jalsaghar* (The Music Room, 1958) is famous for its scene of a decaying zamindar's chandelier — a symbol of fading aristocratic grandeur.
+- *Charulata* (1964) is based on a Rabindranath Tagore novella; its songs are closely associated with the film's emotional texture.
+- *Shatranj Ke Khilari* (The Chess Players, 1977) was Ray's only Hindi/Urdu film (not Bengali) and features Ray's own **first use of animation within a live-action film** — an animated sequence mocking Governor-General Lord Dalhousie's appetite for annexing Indian kingdoms, visualized as him eating them like cherries (Punjab, Burma, Nagpur, Satara, Jhansi, and finally Avadh/Oudh).
+- The film's plot centers on Nawab Wajid Ali Shah of Avadh being deposed by the British (General Outram, acting for Dalhousie) while two noblemen remain obsessed with chess.
+- Wajid Ali Shah was himself a poet/composer; a song attributed to him — "Jab Chhod Chale Lucknow Nagri" ("When I left the city of Lucknow") — has been used across multiple works connected to Ray's world, including the Feluda detective stories, *Charulata*, and *Shatranj Ke Khilari* — a nice cross-referencing quiz link.
+
+**Ritwik Ghatak, Tapan Sinha, Mrinal Sen (the "big three" of Bengali parallel cinema alongside Ray)**
 - Ritwik Ghatak: *Meghe Dhaka Tara* (Cloud-Capped Star); Partition themes.
 - Tapan Sinha: *Ek Doctor Ki Maut* — medical-establishment critique.
-- Mani Kaul: key figure of Indian Parallel/New Wave Cinema.
+- Mrinal Sen: along with Ray and Ghatak, forms the triumvirate most associated with the golden age of Bengali art cinema.
+
+**Mani Kaul**
+- **[doc]** Key figure of the Indian Parallel/New Wave Cinema (FTII-trained); his film *Yatrik* concerns people who travel — noted alongside his broader avant-garde, formalist style.
+
+**Shyam Benegal vs. Dev Benegal — a common mix-up [doc]**
+- **Shyam Benegal** is the elder, more prominent art-house director (*Ankur*, *Nishant*, *Manthan*). *Manthan* (1976) is notable for being **crowdfunded by roughly 500,000 dairy farmers** (Gujarat's milk cooperative movement, the same one behind Amul), each contributing ₹2.
+- **Dev Benegal** is a separate, younger filmmaker (no direct relation) who actually assisted Shyam Benegal early in his career. Dev Benegal directed ***English, August*** (1994) — considered a landmark independent Indian film and the first Indian indie acquired by a major Hollywood studio (20th Century Fox) for distribution.
+
+**Mrinal Sen, Ritwik Ghatak, Tapan Sinha grouping** — see above; frequently quizzed as a trio distinct from Ray.
+
+**John Abraham (Malayalam filmmaker, not the Bollywood actor) [doc]**
+- Known for *Amma Ariyan* (Report to Mother, 1986), a landmark of Malayalam parallel/independent cinema, notable for being funded through a unique grassroots, town-to-town crowdfunding "odyssey" model via his collective Odessa.
+
+**Anurag Kashyap / Imtiaz Ali / Anurag Basu**
 - Anurag Kashyap: *Gangs of Wasseypur*.
 - Imtiaz Ali: known for romantic road-trip narratives (*Jab We Met*, *Rockstar*).
 - Anurag Basu: *Barfi!*, *Life in a Metro*.
+
+**Mira Nair and Mahmood Mamdani [doc]**
+- Mira Nair (director of *Salaam Bombay!*, *Monsoon Wedding*, *The Namesake*) is married to Mahmood Mamdani, a prominent Ugandan-Indian political scientist/scholar at Columbia University known for his work on colonialism, genocide, and identity in Africa — a good "director's spouse" cross-category link.
+
+**Diego Rivera [doc]**
+- Mexican muralist, husband of Frida Kahlo; famous for large-scale politically charged murals (e.g. at the Detroit Institute of Arts, and the destroyed Rockefeller Center mural *Man at the Crossroads*).
 
 **Ari Aster**
 - Known for *Hereditary*, *Midsommar*, *Beau Is Afraid* — modern elevated horror.
@@ -475,3 +518,6 @@ Facts marked **[doc]** are notes already in your original list; the rest are com
 
 **Subodh Gupta**
 - Contemporary artist known for using everyday utensils (steel tiffin boxes, thalis) in large-scale sculpture.
+
+**Satish Gujral [doc]**
+- Painter, sculptor, muralist, and architect; deaf since childhood after a bout of typhoid. Elder brother of I. K. Gujral, a former Prime Minister of India — a useful "sibling of a PM" quiz link.
