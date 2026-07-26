@@ -25,12 +25,21 @@
   hr { border: none; border-top: 1px solid #333; margin: 20px 0; }
   p { margin: 8px 0; }
   code { background: #1e1e1e; padding: 2px 6px; border-radius: 3px; font-size: 0.9em; }
+  details { border: 1px solid #2a2a2a; border-radius: 6px; margin-bottom: 6px; background: #141414; }
+  details[open] { background: #1a1a1a; }
+  summary { padding: 10px 14px; cursor: pointer; font-weight: 500; color: #d4a853; list-style: none; }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: "▸ "; color: #555; }
+  details[open] summary::before { content: "▾ "; }
+  summary:hover { color: #e8c36a; }
+  details p { padding: 4px 14px 12px; color: #bbb; font-size: 0.95em; }
 </style>
 </head>
 <body>
 <div class="tabs">
   <div class="tab active" onclick="load(0, this)">Quiz Facts</div>
   <div class="tab" onclick="load(1, this)">Wikipedia Links</div>
+  <div class="tab" onclick="load(2, this)">Explanations</div>
 </div>
 <div class="content" id="content"></div>
 <script>
@@ -40,13 +49,14 @@ renderer.link = function({href, title, text}) {
   return `<a href="${href}"${t} target="_blank" rel="noopener">${text}</a>`;
 };
 marked.use({ renderer });
-const files = ['COQ_Quiz_Facts.md', 'COQ_Wikipedia_Links.md'];
+const files = ['COQ_Quiz_Facts.md', 'COQ_Wikipedia_Links.md', 'explanations.html'];
+const isHTML = [false, false, true];
 async function load(i, el) {
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   el.classList.add('active');
   const res = await fetch(files[i]);
-  const md = await res.text();
-  document.getElementById('content').innerHTML = marked.parse(md);
+  const text = await res.text();
+  document.getElementById('content').innerHTML = isHTML[i] ? text : marked.parse(text);
 }
 load(0, document.querySelector('.tab'));
 </script>
