@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COQ Viewer</title>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f0f0f; color: #e0e0e0; }
+  .tabs { display: flex; background: #1a1a1a; border-bottom: 1px solid #333; position: sticky; top: 0; z-index: 10; }
+  .tab { padding: 14px 28px; cursor: pointer; font-size: 15px; font-weight: 500; color: #888; border-bottom: 2px solid transparent; transition: all 0.2s; }
+  .tab:hover { color: #ccc; }
+  .tab.active { color: #fff; border-bottom-color: #5b9bd5; }
+  .content { max-width: 860px; margin: 0 auto; padding: 32px 24px 80px; line-height: 1.7; }
+  h1 { font-size: 1.8em; margin-bottom: 8px; color: #fff; }
+  h2 { font-size: 1.3em; margin-top: 28px; margin-bottom: 10px; color: #5b9bd5; border-bottom: 1px solid #2a2a2a; padding-bottom: 6px; }
+  h3 { font-size: 1.05em; margin-top: 20px; margin-bottom: 6px; color: #d4a853; }
+  ul { padding-left: 22px; margin: 6px 0 16px; }
+  li { margin-bottom: 4px; }
+  strong { color: #fff; }
+  em { color: #b0b0b0; }
+  a { color: #5b9bd5; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  hr { border: none; border-top: 1px solid #333; margin: 20px 0; }
+  p { margin: 8px 0; }
+  code { background: #1e1e1e; padding: 2px 6px; border-radius: 3px; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<div class="tabs">
+  <div class="tab active" onclick="load(0, this)">Quiz Facts</div>
+  <div class="tab" onclick="load(1, this)">Wikipedia Links</div>
+</div>
+<div class="content" id="content"></div>
+<script>
+const files = ['COQ_Quiz_Facts.md', 'COQ_Wikipedia_Links.md'];
+async function load(i, el) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  const res = await fetch(files[i]);
+  const md = await res.text();
+  document.getElementById('content').innerHTML = marked.parse(md);
+}
+load(0, document.querySelector('.tab'));
+</script>
+</body>
+</html>
