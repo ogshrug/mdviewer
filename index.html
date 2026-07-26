@@ -54,9 +54,10 @@ const isHTML = [false, false, true];
 async function load(i, el) {
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   el.classList.add('active');
-  const res = await fetch(files[i]);
+  const res = await fetch(files[i] + '?v=' + Date.now());
   const text = await res.text();
   document.getElementById('content').innerHTML = isHTML[i] ? text : marked.parse(text);
+  window.scrollTo(0, 0);
 }
 load(0, document.querySelector('.tab'));
 </script>
